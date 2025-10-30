@@ -1,5 +1,4 @@
 
-        // Membuat hati jatuh secara acak
         function createHeart() {
             const heart = document.createElement('div');
             heart.className = 'heart';
@@ -11,7 +10,6 @@
         }
         setInterval(createHeart, 500);
 
-        // Fungsi untuk respons pilihan
         function respond(choice) {
             const responseDiv = document.getElementById('response');
             if (choice === 'sayang') {
@@ -19,4 +17,5 @@
             } else if (choice === 'tidak') {
                 responseDiv.innerHTML = 'Hiks... eumm sedih bgtt klu ndak sayang! 😢 ';
             }
+
         }
