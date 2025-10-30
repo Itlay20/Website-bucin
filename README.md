@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Bucin Banget</title>
     <link rel="stylesheet" href="styless.css">
+
 </head>
 <body>
     <div class="hearts" id="hearts"></div>
