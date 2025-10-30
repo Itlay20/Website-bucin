@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styless.css">
     <script src="java.js"></script>
-<audio autoplay>
+<audio controls>
   <source src="Yung_Kai_-_Blue(impuremusic.com).mp3" type="audio/mpeg">
 </audio>
 </head>
@@ -18,7 +18,7 @@
     <div class="choice">
         <p>Sayang sweetly tidak?</p>
         <button onclick="respond('sayang')">Sayang</button>
-        <button onclick="respond('tidak')">Aku Tidak</button>
+        <button onclick="respond('tidak')">Tidak</button>
     </div>
     
     <div id="response"></div>
