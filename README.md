@@ -1,2 +1,26 @@
-# Website-bucin
-web
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Bucin Banget</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="hearts" id="hearts"></div>
+    <h1>❤️ Renaldy Prayer! ❤️</h1>
+    <p>Stay with me yahh,ai happy with uu! 💕</p>
+    <p>ai miss youuu,mauu ketemuuu mr nda tau kapan lagi ketemunyaa haha sedihh,mr sayang nda kangen hm sedih bgtt ! 🌹</p>
+    
+    <!-- Tambahan: Pilihan Sayang Aku Tidak -->
+    <div class="choice">
+        <p>Sayang sweetly tidak?</p>
+        <button onclick="respond('sayang')">Sayang</button>
+        <button onclick="respond('tidak')">Aku Tidak</button>
+    </div>
+    
+    <div id="response"></div>
+    
+    <button onclick="alert('I love uu sayangg! 😘')">Klik untuk Pesan Cinta</button>
+</body>
+</html>
